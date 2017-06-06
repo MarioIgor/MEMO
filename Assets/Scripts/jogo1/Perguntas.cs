@@ -187,7 +187,7 @@ public class Perguntas : MonoBehaviour {
 
 		}else{
 
-			Application.LoadLevel("JOGO3");
+			Application.LoadLevel("InstrucoesJogo2");
 
 
 		}
