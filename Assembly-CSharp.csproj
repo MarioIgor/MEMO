@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{EE5D245B-3947-FE95-AC46-BF1EF399C367}</ProjectGuid>
+    <ProjectGuid>{8981A531-75EA-D5EC-E176-596286698C41}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -48,14 +48,16 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Controller\CommandGameController.cs" />
      <Compile Include="Assets\Scripts\Controller\CompleteTheWordsController.cs" />
+     <Compile Include="Assets\Scripts\Instrucoes\InstrucoesJOGO1.cs" />
      <Compile Include="Assets\Scripts\VIew\CompleteTheWordsView.cs" />
      <Compile Include="Assets\Scripts\VIew\globoFlip.cs" />
      <Compile Include="Assets\Scripts\jogo1\BotaoVoltar.cs" />
+     <Compile Include="Assets\Scripts\jogo1\Efeitos.cs" />
      <Compile Include="Assets\Scripts\jogo1\Perguntas.cs" />
      <Compile Include="Assets\Scripts\jogo2\ControladorJogo2.cs" />
      <Compile Include="Assets\Scripts\jogo2\ImagensFeedback.cs" />
  <Reference Include="Facebook.Unity.Settings">
- <HintPath>C:/Users/mario.menezes/Documents/MemoMarioIgor/zheimer-master/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+ <HintPath>C:/Users/mario.menezes/Desktop/MEMO-master/MEMO-master/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

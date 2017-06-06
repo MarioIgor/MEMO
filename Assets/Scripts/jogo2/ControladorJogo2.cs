@@ -398,7 +398,7 @@ public class ControladorJogo2 : MonoBehaviour {
 	}				
 
 	private void carregarProximoJogo (){				
-		Application.LoadLevel("JOGO1");        
+		Application.LoadLevel("InstrucoesJOGO1");        
 	}
 
 	private void alterarVisibilidadeImagensX(bool visivel) {
