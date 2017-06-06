@@ -7,12 +7,17 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class Perguntas : MonoBehaviour {
 
+	public AudioClip acertou;
+	public AudioClip errou;
+	private AudioSource audioResp;
+
+
 	public float contador = 1;
-	public GameObject painel;
+	//public GameObject painel;
 	public GameObject painelChiado;
 
 	private Animator anim;
-	public GameObject painelAnimacao;
+	public GameObject painelAcertou;
 
 	public Image pergunta;
 	public Text respostasA;
@@ -36,10 +41,11 @@ public class Perguntas : MonoBehaviour {
 	void Start () {
 
 		idPerguntas = 0;
-		painel.SetActive (true);
+		//painel.SetActive (true);
 		painelChiado.SetActive (false);
-		anim = painelAnimacao.GetComponent<Animator> ();
+		anim = painelAcertou.GetComponent<Animator> ();
 		anim.SetBool ("acertou", false);
+		audioResp = GetComponent<AudioSource> ();
 
 		//pergunta.sprite = perguntas [idPerguntas];
 		//pergunta = GameObject.GetComponent<Image>();
@@ -58,21 +64,21 @@ public class Perguntas : MonoBehaviour {
 
 
 	void tempo(){
-		if (contador < 301) {
+		if (contador < 201) {
 			contador++;
 		}
 
-		if (contador > 290) {
+		if (contador > 190) {
 			painelChiado.SetActive (true);
 		}
 
-		if (contador > 300) {
+		if (contador > 200) {
 
 			respostasA.text = letraA [idPerguntas];
 			respostasB.text = letraB [idPerguntas];
 			respostasC.text = letraC [idPerguntas];
 			respostasD.text = letraD [idPerguntas];
-			contador = 301;
+			contador = 201;
 		}
 	}
 
@@ -89,31 +95,55 @@ public class Perguntas : MonoBehaviour {
 	public void compararResposta(string opcaoSelecionada){
 
 		if (opcaoSelecionada == "A") {
-			if (letraA [idPerguntas] == respostaCerta [idPerguntas]) {				
-				anim.SetBool ("acertou", true);
+			if (letraA [idPerguntas] == respostaCerta [idPerguntas]) {	
+				
+				painelAcertou.SetActive (true);
+				audioResp.PlayOneShot (acertou, 0.62F);
 				proxima ();
 
-			} else {
+
+			} else {				
+
+				audioResp.PlayOneShot (errou, 0.62F);
 				proxima ();
+
 			}
 		} else if (opcaoSelecionada == "B") {
 			if (letraB [idPerguntas] == respostaCerta [idPerguntas]) {
+
+				painelAcertou.SetActive (true);
+				audioResp.PlayOneShot (acertou, 0.92F);
 				proxima ();
+
 			} else {
+				
+				audioResp.PlayOneShot (errou, 0.92F);
 				proxima ();
 			}
 
 		} else if (opcaoSelecionada == "C") {
 			if (letraC [idPerguntas] == respostaCerta [idPerguntas]) {
+
+				painelAcertou.SetActive (true);
+				audioResp.PlayOneShot (acertou, 0.92F);
 				proxima ();
+
 			} else {
+
+				audioResp.PlayOneShot (errou, 0.92F);
 				proxima ();
 			}
 
 		} else if (opcaoSelecionada == "D") {
 			if (letraD [idPerguntas] == respostaCerta [idPerguntas]) {
+
+				painelAcertou.SetActive (true);
+				audioResp.PlayOneShot (acertou, 0.92F);
 				proxima ();
+
 			} else {
+
+				audioResp.PlayOneShot (errou, 0.92F);
 				proxima ();
 			}
 
@@ -157,7 +187,12 @@ public class Perguntas : MonoBehaviour {
 
 		}else{
 
+<<<<<<< HEAD
 			SceneManager.LoadScene("JOGO3");
+=======
+			Application.LoadLevel("InstrucoesJogo2");
+
+>>>>>>> 62bb7a07aebf6fd5535d1ce96d610b2d5b0f9eaa
 
 		}
 	}

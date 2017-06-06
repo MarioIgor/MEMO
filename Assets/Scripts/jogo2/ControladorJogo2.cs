@@ -399,7 +399,11 @@ public class ControladorJogo2 : MonoBehaviour {
 	}				
 
 	private void carregarProximoJogo (){				
+<<<<<<< HEAD
 		SceneManager.LoadScene("JOGO1");        
+=======
+		Application.LoadLevel("InstrucoesJOGO3");        
+>>>>>>> 62bb7a07aebf6fd5535d1ce96d610b2d5b0f9eaa
 	}
 
 	private void alterarVisibilidadeImagensX(bool visivel) {
