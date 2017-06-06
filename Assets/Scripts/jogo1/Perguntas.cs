@@ -186,13 +186,8 @@ public class Perguntas : MonoBehaviour {
 			}
 
 		}else{
-
-<<<<<<< HEAD
-			SceneManager.LoadScene("JOGO3");
-=======
-			Application.LoadLevel("InstrucoesJogo2");
-
->>>>>>> 62bb7a07aebf6fd5535d1ce96d610b2d5b0f9eaa
+			
+			SceneManager.LoadScene("InstrucoesJogo2");
 
 		}
 	}
