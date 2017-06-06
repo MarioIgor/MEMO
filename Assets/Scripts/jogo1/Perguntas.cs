@@ -4,7 +4,7 @@ using UnityEngine.UI;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class Perguntas : MonoBehaviour {
 
 	public float contador = 1;
@@ -157,8 +157,7 @@ public class Perguntas : MonoBehaviour {
 
 		}else{
 
-			Application.LoadLevel("JOGO3");
-
+			SceneManager.LoadScene("JOGO3");
 
 		}
 	}

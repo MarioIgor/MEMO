@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ControladorJogo2 : MonoBehaviour {
 	public GameObject Pergunta;
@@ -398,7 +399,7 @@ public class ControladorJogo2 : MonoBehaviour {
 	}				
 
 	private void carregarProximoJogo (){				
-		Application.LoadLevel("JOGO1");        
+		SceneManager.LoadScene("JOGO1");        
 	}
 
 	private void alterarVisibilidadeImagensX(bool visivel) {

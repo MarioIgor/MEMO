@@ -1,22 +1,23 @@
-/Users/junivaldo/Downloads/zheimer-master/Temp/bin/Debug/Assembly-CSharp.dll.mdb
-/Users/junivaldo/Downloads/zheimer-master/Temp/bin/Debug/Assembly-CSharp.dll
-/Users/junivaldo/Downloads/zheimer-master/obj/Debug/Assembly-CSharp.dll
-/Users/junivaldo/Downloads/zheimer-master/obj/Debug/Assembly-CSharp.dll.mdb
-/Users/junivaldo/Downloads/zheimer-master/Temp/bin/Debug/UnityEngine.dll
-/Users/junivaldo/Downloads/zheimer-master/Temp/bin/Debug/UnityEditor.dll
-/Users/junivaldo/Downloads/zheimer-master/Temp/bin/Debug/UnityEngine.Analytics.dll
-/Users/junivaldo/Downloads/zheimer-master/Temp/bin/Debug/UnityEngine.TestRunner.dll
-/Users/junivaldo/Downloads/zheimer-master/Temp/bin/Debug/nunit.framework.dll
-/Users/junivaldo/Downloads/zheimer-master/Temp/bin/Debug/UnityEngine.Networking.dll
-/Users/junivaldo/Downloads/zheimer-master/Temp/bin/Debug/UnityEngine.UI.dll
-/Users/junivaldo/Downloads/zheimer-master/Temp/bin/Debug/UnityEngine.HoloLens.dll
-/Users/junivaldo/Downloads/zheimer-master/Temp/bin/Debug/UnityEngine.VR.dll
-/Users/junivaldo/Downloads/zheimer-master/Temp/bin/Debug/Mono.Cecil.dll
-/Users/junivaldo/Downloads/zheimer-master/Temp/bin/Debug/Unity.SerializationLogic.dll
-/Users/junivaldo/Downloads/zheimer-master/Temp/bin/Debug/Unity.DataContract.dll
-/Users/junivaldo/Downloads/zheimer-master/Temp/bin/Debug/ICSharpCode.NRefactory.dll
-/Users/junivaldo/Downloads/zheimer-master/Temp/bin/Debug/Unity.UNetWeaver.dll
-/Users/junivaldo/Downloads/zheimer-master/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
-/Users/junivaldo/Downloads/zheimer-master/Temp/bin/Debug/Unity.CecilTools.dll
-/Users/junivaldo/Downloads/zheimer-master/Temp/bin/Debug/Mono.Cecil.Pdb.dll
-/Users/junivaldo/Downloads/zheimer-master/Temp/bin/Debug/Mono.Cecil.Mdb.dll
+/Users/sauloguerreiro/Google Drive/Unifor/Documentos/Semestre 2017.1/Computação Gráfica/TRABALHO/NP2/WorkspaceUnity/MEMO/Temp/bin/Debug/Assembly-CSharp.dll.mdb
+/Users/sauloguerreiro/Google Drive/Unifor/Documentos/Semestre 2017.1/Computação Gráfica/TRABALHO/NP2/WorkspaceUnity/MEMO/Temp/bin/Debug/Assembly-CSharp.dll
+/Users/sauloguerreiro/Google Drive/Unifor/Documentos/Semestre 2017.1/Computação Gráfica/TRABALHO/NP2/WorkspaceUnity/MEMO/obj/Debug/Assembly-CSharp.dll
+/Users/sauloguerreiro/Google Drive/Unifor/Documentos/Semestre 2017.1/Computação Gráfica/TRABALHO/NP2/WorkspaceUnity/MEMO/obj/Debug/Assembly-CSharp.dll.mdb
+/Users/sauloguerreiro/Google Drive/Unifor/Documentos/Semestre 2017.1/Computação Gráfica/TRABALHO/NP2/WorkspaceUnity/MEMO/Temp/bin/Debug/UnityEngine.dll
+/Users/sauloguerreiro/Google Drive/Unifor/Documentos/Semestre 2017.1/Computação Gráfica/TRABALHO/NP2/WorkspaceUnity/MEMO/Temp/bin/Debug/UnityEditor.dll
+/Users/sauloguerreiro/Google Drive/Unifor/Documentos/Semestre 2017.1/Computação Gráfica/TRABALHO/NP2/WorkspaceUnity/MEMO/Temp/bin/Debug/Facebook.Unity.Settings.dll
+/Users/sauloguerreiro/Google Drive/Unifor/Documentos/Semestre 2017.1/Computação Gráfica/TRABALHO/NP2/WorkspaceUnity/MEMO/Temp/bin/Debug/UnityEngine.UI.dll
+/Users/sauloguerreiro/Google Drive/Unifor/Documentos/Semestre 2017.1/Computação Gráfica/TRABALHO/NP2/WorkspaceUnity/MEMO/Temp/bin/Debug/UnityEngine.Networking.dll
+/Users/sauloguerreiro/Google Drive/Unifor/Documentos/Semestre 2017.1/Computação Gráfica/TRABALHO/NP2/WorkspaceUnity/MEMO/Temp/bin/Debug/UnityEngine.TestRunner.dll
+/Users/sauloguerreiro/Google Drive/Unifor/Documentos/Semestre 2017.1/Computação Gráfica/TRABALHO/NP2/WorkspaceUnity/MEMO/Temp/bin/Debug/nunit.framework.dll
+/Users/sauloguerreiro/Google Drive/Unifor/Documentos/Semestre 2017.1/Computação Gráfica/TRABALHO/NP2/WorkspaceUnity/MEMO/Temp/bin/Debug/UnityEngine.Analytics.dll
+/Users/sauloguerreiro/Google Drive/Unifor/Documentos/Semestre 2017.1/Computação Gráfica/TRABALHO/NP2/WorkspaceUnity/MEMO/Temp/bin/Debug/UnityEngine.HoloLens.dll
+/Users/sauloguerreiro/Google Drive/Unifor/Documentos/Semestre 2017.1/Computação Gráfica/TRABALHO/NP2/WorkspaceUnity/MEMO/Temp/bin/Debug/UnityEngine.VR.dll
+/Users/sauloguerreiro/Google Drive/Unifor/Documentos/Semestre 2017.1/Computação Gráfica/TRABALHO/NP2/WorkspaceUnity/MEMO/Temp/bin/Debug/Mono.Cecil.dll
+/Users/sauloguerreiro/Google Drive/Unifor/Documentos/Semestre 2017.1/Computação Gráfica/TRABALHO/NP2/WorkspaceUnity/MEMO/Temp/bin/Debug/Unity.SerializationLogic.dll
+/Users/sauloguerreiro/Google Drive/Unifor/Documentos/Semestre 2017.1/Computação Gráfica/TRABALHO/NP2/WorkspaceUnity/MEMO/Temp/bin/Debug/Unity.DataContract.dll
+/Users/sauloguerreiro/Google Drive/Unifor/Documentos/Semestre 2017.1/Computação Gráfica/TRABALHO/NP2/WorkspaceUnity/MEMO/Temp/bin/Debug/ICSharpCode.NRefactory.dll
+/Users/sauloguerreiro/Google Drive/Unifor/Documentos/Semestre 2017.1/Computação Gráfica/TRABALHO/NP2/WorkspaceUnity/MEMO/Temp/bin/Debug/Unity.UNetWeaver.dll
+/Users/sauloguerreiro/Google Drive/Unifor/Documentos/Semestre 2017.1/Computação Gráfica/TRABALHO/NP2/WorkspaceUnity/MEMO/Temp/bin/Debug/Unity.UNetWeaver.dll.mdb
+/Users/sauloguerreiro/Google Drive/Unifor/Documentos/Semestre 2017.1/Computação Gráfica/TRABALHO/NP2/WorkspaceUnity/MEMO/Temp/bin/Debug/Unity.CecilTools.dll
+/Users/sauloguerreiro/Google Drive/Unifor/Documentos/Semestre 2017.1/Computação Gráfica/TRABALHO/NP2/WorkspaceUnity/MEMO/Temp/bin/Debug/Mono.Cecil.Pdb.dll
+/Users/sauloguerreiro/Google Drive/Unifor/Documentos/Semestre 2017.1/Computação Gráfica/TRABALHO/NP2/WorkspaceUnity/MEMO/Temp/bin/Debug/Mono.Cecil.Mdb.dll
