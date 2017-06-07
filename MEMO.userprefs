@@ -1,10 +1,13 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/jogo3/LogicaJogo3.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/jogo2/ControladorJogo2.cs">
     <Files>
-      <File FileName="Assets/Scripts/jogo3/PontuacaoJogo3.cs" Line="14" Column="66" />
+      <File FileName="Assets/Scripts/jogo3/PontuacaoJogo3.cs" Line="1" Column="1" />
       <File FileName="Assets/Scripts/jogo3/LogicaJogo3.cs" Line="73" Column="59" />
-      <File FileName="Assets/Scripts/jogo3/ViewJogo3.cs" Line="113" Column="32" />
+      <File FileName="Assets/Scripts/jogo3/ViewJogo3.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/jogo1/Perguntas.cs" Line="190" Column="43" />
+      <File FileName="Assets/Scripts/jogo2/ControladorJogo2.cs" Line="403" Column="42" />
+      <File FileName="Assets/Scripts/jogo1/Efeitos.cs" Line="9" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

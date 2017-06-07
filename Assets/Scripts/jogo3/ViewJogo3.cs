@@ -71,20 +71,23 @@ public class ViewJogo3 : MonoBehaviour {
 	public void onClickLetra(string letraDigitada){
 		if (!isJaSeiClicked) {
 			Pergunta p = LogicaJogo3.perguntaAtual;
-			bool[] indexVetor = Util.contemLetra (letraDigitada, p);
-			if (indexVetor != null) {//Caso encontre a(s) letra(s)
-				for (int i = 0; i < indexVetor.Length; i++) {
-					if (indexVetor[i]==true) {
-						LogicaJogo3.quantidadeLetrasAcertadas++;
-						preencherInfoCaixas (i, letraDigitada);
-					}	
-				}
-				//toca  musica de acerto
+			if(!LogicaJogo3.listLetrasJaEncontradas.Contains(letraDigitada)){
+				bool[] indexVetor = Util.contemLetra (letraDigitada, p);
+				if (indexVetor != null) {//Caso encontre a(s) letra(s)
+					for (int i = 0; i < indexVetor.Length; i++) {
+						if (indexVetor[i]==true) {
+							LogicaJogo3.listLetrasJaEncontradas.Add(letraDigitada);
+							LogicaJogo3.quantidadeLetrasAcertadas++;
+							preencherInfoCaixas (i, letraDigitada);
+						}	
+					}
+					//toca  musica de acerto
 
-//				audioAcertou.GetComponent<AudioSource>().Play();
-			} else {//Caso nao encontre a(s) letra(s)
-				//toca  musica de erro
-//				audioErrou.GetComponent<AudioSource>().Play();
+	//				audioAcertou.GetComponent<AudioSource>().Play();
+				} else {//Caso nao encontre a(s) letra(s)
+					//toca  musica de erro
+	//				audioErrou.GetComponent<AudioSource>().Play();
+				}
 			}
 			LogicaJogo3.quantidadeTentativas = LogicaJogo3.quantidadeTentativas - 1; 
 			textQtdeTentativa.text = "" + LogicaJogo3.quantidadeTentativas;
@@ -121,7 +124,6 @@ public class ViewJogo3 : MonoBehaviour {
 		palavraEscrita = "";
 		textPalavraEscrita.text = "";
 		LogicaJogo3.quantidadeTentativas = 0;
-		LogicaJogo3.contadorRespostasCertas++;
 		limparInfoCaixas ();
 		textQtdeTentativa.text = "10";
 	}
@@ -258,6 +260,7 @@ public class ViewJogo3 : MonoBehaviour {
 	void verificarPalavraEscrita (string palavraEscrita){
 		if (LogicaJogo3.perguntaAtual.getPalavra ().Equals (palavraEscrita)) {
 			imagemAcertou.SetActive (true);
+			LogicaJogo3.contadorRespostasCertas++;
 			//acertou palavra - colocar som
 		} else {
 			imagemErrou.SetActive (true);

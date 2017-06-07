@@ -11,7 +11,7 @@ public class PontuacaoJogo3 : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		textPalavraEscrita.text = "Voce acertou "+LogicaJogo3.contadorRespostasCertas+" de " + LogicaJogo3.quantidadePerguntasJogo + " palavra(s)";
-		textNota.text = "" + ((10 * LogicaJogo3.contadorRespostasCertas) / LogicaJogo3.quantidadePerguntasJogo);
+		textNota.text = "NOTA " + ((10 * LogicaJogo3.contadorRespostasCertas) / LogicaJogo3.quantidadePerguntasJogo);
 	}
 	
 	// Update is called once per frame
