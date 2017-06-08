@@ -398,9 +398,9 @@ public class ControladorJogo2 : MonoBehaviour {
 		}
 	}				
 
-	private void carregarProximoJogo (){				
-
-		SceneManager.LoadScene("InstrucoesJogo3");               
+	private void carregarProximoJogo (){
+		
+		SceneManager.LoadScene("pontuacaoJogo2");               
 
 	}
 

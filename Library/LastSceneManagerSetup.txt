@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/JOGO3.unity
+- path: Assets/Scenes/JOGO2.unity
   isLoaded: 1
   isActive: 1

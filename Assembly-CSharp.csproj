@@ -55,6 +55,7 @@
      <Compile Include="Assets\Scripts\jogo1\Perguntas.cs" />
      <Compile Include="Assets\Scripts\jogo2\ControladorJogo2.cs" />
      <Compile Include="Assets\Scripts\jogo2\ImagensFeedback.cs" />
+     <Compile Include="Assets\Scripts\jogo2\pontuacaoJogo2.cs" />
      <Compile Include="Assets\Scripts\jogo3\ControladorJogo3.cs" />
      <Compile Include="Assets\Scripts\jogo3\Jogador.cs" />
      <Compile Include="Assets\Scripts\jogo3\LogicaJogo3.cs" />
