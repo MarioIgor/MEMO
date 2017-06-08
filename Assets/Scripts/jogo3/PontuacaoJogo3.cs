@@ -10,7 +10,7 @@ public class PontuacaoJogo3 : MonoBehaviour {
 	public Text textNota;
 	// Use this for initialization
 	void Start () {
-		textPalavraEscrita.text = "Voce acertou "+LogicaJogo3.contadorRespostasCertas+" de " + LogicaJogo3.quantidadePerguntasJogo + " palavra(s)";
+		textPalavraEscrita.text = "Você acertou "+LogicaJogo3.contadorRespostasCertas+" de " + LogicaJogo3.quantidadePerguntasJogo + " palavra(s)";
 		textNota.text = "NOTA " + ((10 * LogicaJogo3.contadorRespostasCertas) / LogicaJogo3.quantidadePerguntasJogo);
 	}
 	

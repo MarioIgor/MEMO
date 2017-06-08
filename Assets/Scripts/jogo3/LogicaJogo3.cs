@@ -72,7 +72,7 @@ public class LogicaJogo3 : MonoBehaviour{
 		switch(idNivelJogador)
 		{
 		case 1://INICIANTE
-			p1 = new Pergunta("banana",new Nivel("facil"),"Macado adora comer");
+			p1 = new Pergunta("banana",new Nivel("facil"),"Macaco adora comer");
 			p2 = new Pergunta("carro",new Nivel("facil"),"Dirigível");
 			p3 = new Pergunta("casa",new Nivel("facil"),"Moradia");
 			p4 = new Pergunta("giz",new Nivel("facil"),"Serve para escrever");
